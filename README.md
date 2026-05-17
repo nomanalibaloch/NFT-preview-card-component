@@ -85,6 +85,6 @@ I will keep building front-ent mentor projects 1 by 1 and as things get tougher 
 
 ## Author
 
-- Frontend Mentor - [@nomanalibaloch](https://www.frontendmentor.io/profile/nomanalibaloch)
+- Frontend Mentor - [Noman Gorchani][@nomanalibaloch](https://www.frontendmentor.io/profile/nomanalibaloch)
 
 
