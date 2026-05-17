@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://nomanalibaloch.github.io/NFT-preview-card-component/)
+- Live Site URL: [the link](https://nomanalibaloch.github.io/NFT-preview-card-component/)
 
 ## My process
 
