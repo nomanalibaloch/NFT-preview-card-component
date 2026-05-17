@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-size: 1.125rem;
+    background-color: hsl(217, 54%, 11%);
+    color:white;
+    font-family: 'Outfit',sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 97vh;
+    padding-inline: 1rem;
+}
+
+.card{
+    max-width: 350px;
+    width: 100%;
+    padding: 1.3em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.35);
+}
+.card h3{
+    cursor: pointer;
+}
+.card h3:active,.card h3:focus{
+    color:hsl(178, 100%, 50%);
+    border:none;
+}
+.card .equilibrium-image{
+    width: 100%;
+}
+.eth-and-time,.eth-image,.time-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eth-image,.time-left{
+    gap:0.45em;
+    font-size: 1rem;
+}
+.author img{
+    width: 24px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap:0.5em;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.author p{
+    color:hsl(215, 51%, 70%);
+    font-size: 1rem;
+}
+.card .info{
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.eth-image p{
+    color:hsl(178, 100%, 50%);
+    font-weight: 500;
+
+}
+.time-left p{
+    color:hsl(215, 51%, 70%);
+}
+.author p span{
+    color:hsl(0, 0%, 100%);
+}
+.attribution{
+    text-align: center;
+}
+.attribution a{
+    color:white;
+}
+.attribution a:hover, .attribution a:active{
+    color:hsl(178, 100%, 50%);
+}
